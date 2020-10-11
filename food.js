@@ -44,7 +44,11 @@ addFood.mousePressed(addFoods);
     }
     fill(255,255,254);
     textSize(15);
-if(){
-    
+if(lastfed==0){
+    text("lastFed"+lastFed%+"Ft",350,10);
+
+}
+else{
+    text("lastFeed"+lastFed+"FT",350,10);
 }
 }
